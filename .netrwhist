@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/home/ivan/Dropbox/EPFL/courses/semester_2/parallel_computing_and_pthreads/project/old_code/src/mreza'
+let g:netrw_dirhist_2='/home/ivan/Dropbox/EPFL/courses/semester_2/computer_algebra/exercises/assignment03'
+let g:netrw_dirhist_3='/home/ivan/Documents/java/recenzije/hw07/rudman/Danijel_Rudman_hw07/build'
+let g:netrw_dirhist_4='/home/ivan/Dropbox/EPFL/courses/semester_2/parallel_computing_and_pthreads/project/report/plots'
