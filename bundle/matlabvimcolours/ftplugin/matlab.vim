@@ -90,4 +90,6 @@ setlocal expandtab
 setlocal shiftwidth=2
 setlocal softtabstop=2
 
-colorscheme matlablight
+if has("gui_running")
+    colorscheme matlablight
+endif
