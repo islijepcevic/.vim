@@ -3,6 +3,10 @@
 " Maintainer:	Fabrice Guy <fabrice.guy at gmail dot com>
 " Last Change:	2009 Nov 23 - Added support for if/end block on the same line
 
+setlocal expandtab
+setlocal shiftwidth=2
+setlocal softtabstop=2
+
 " Only load this indent file when no other was loaded.
 if exists("b:did_indent")
   finish
@@ -145,3 +149,5 @@ function GetMatlabIndent()
 endfunction
 
 " vim:sw=2
+
+colorscheme matlablight

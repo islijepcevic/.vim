@@ -6,10 +6,6 @@
 "               2010 Sep 19 : support for additional mappings for matlab files
 "               2011 Feb 09 : added enumeration and descriptions
 
-setlocal expandtab
-setlocal shiftwidth=2
-setlocal softtabstop=2
-
 if exists("b:did_ftplugin")
   finish
 endif
