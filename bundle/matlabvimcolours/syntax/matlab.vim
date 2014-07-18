@@ -793,18 +793,6 @@ if version >= 508 || !exists("did_matlab_syntax_inits")
    HiLink matlabComma			SpecialKey	" YD
    HiLink matlabSemicolon		SpecialKey
 
-   function MatlabColors()
-       if g:colors_name == 'solarized'
-           hi link matlabComma     Statement
-           hi link matlabSemicolon Statement
-       else
-           hi link matlabComma     SpecialKey
-           hi link matlabSemicolon SpecialKey
-       endif
-   endfunction
-
-   autocmd ColorScheme * call MatlabColors()
-
    "
    HiLink matlabLineContinuation	Special
    "
